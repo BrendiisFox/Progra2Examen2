@@ -53,10 +53,13 @@ public class Ejercicios {
 		try
 		{
 			String word = null, repet = null;
+			//Se hace null
 			Scanner b = new Scanner (new File(nombre_archivo));
+			// atarapa lo que se escribe
 			System.out.println(word);
-		
+		//imprime las palabras
 			while(b.hasNext())
+			//se crea un ciclo para recorrer el archivo
 			{
 				word = b.next();
 				System.out.println(word);
